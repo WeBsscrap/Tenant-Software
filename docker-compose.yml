@@ -1,0 +1,7 @@
+# Docker Compose setup (optional)
+version: '3'
+services:
+  web:
+    build: ./frontend
+  api:
+    build: ./backend
